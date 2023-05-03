@@ -1,0 +1,202 @@
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+#mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+
+}
+#imagesId{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#imagesId img{
+    width: 150px;
+    height:150px;
+    border: 2px solid rgba(94, 91, 91, 0.644);
+    margin-left: 5px;
+    border-radius: 4px;
+    
+}
+
+
+
+#imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainWord{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#shower{
+    font-size: 1rem;
+    font-weight: bolder;
+   font-family: sans-serif;
+    margin-bottom: 13px;
+}
+
+#scoreRight {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'Edu NSW ACT Foundation', cursive;   
+
+}
+
+#scoreWrong {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'Edu NSW ACT Foundation', cursive;   
+    margin-top: -15px;
+
+}
+.showText{
+    display: flex;
+
+}
+
+.showText a{
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.rightAnswer{
+    color: green;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;   
+}
+
+.worngAnswer{
+    color: red;
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;   
+
+}
+
+#wordNumber{
+    font-size: 1.2rem;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+
+#fireWork{
+    /* width: 100%; */
+    position: absolute;
+    min-width: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#fireWork img{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+.addonmeaning{
+    font-size: 15px;
+    color: rgb(169, 23, 23);
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .single__image{
+        border: 2px solid rgba(109, 107, 107, 0.767);
+        margin-left: 3px;
+        border-radius: 5px;
+        
+    }
+
+    
+#fireWork{
+    /* width: 100%; */
+    position: absolute;
+    min-width: 300px;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+  }
+
+
+  /* index2 code is here */
+
+  .header{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .word,.meaning,.dot,.dash{
+    display: inline;
+    font-size: 20px;
+  }
+
+  .meaning{
+    font-size: 18px;
+  }
+  .sentence{
+    font-size: 20px;
+    display: inline;
+  }
+  .example{
+    font-size: 20px;
+    display: inline;
+    margin-right: 5px;
+  }
+.content{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sentenceExample{
+    padding-top: 8px;
+}
+
+.backslash{
+    font-weight: bolder;
+}
+
